@@ -27,7 +27,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+
+# TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_BOOTANIMATION_HALF_RES := true
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES :=1080
 
 # Inherit from msm8916-common
 $(call inherit-product, device/asus/msm8916-common/msm8916.mk)
